@@ -1,0 +1,13 @@
+<view>
+   <view>用户名：
+      <input class='input' name='username' placeholder='请输入您的用户名' bindinput='username'/>
+      
+ 密码：
+      <input class='input' name='usernpwd' placeholder='请输入您的用户名' bindinput='userpwd'/>
+      <button style='submit' bindtap='add' size='8'>提交</button>
+      <button style='reset' size='8'>取消</button>
+    
+    </view>
+
+
+</view>
