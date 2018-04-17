@@ -1,0 +1,10 @@
+<view>
+<image src='/images/5.jpg'></image>
+  <input type='text' class='a' placeholder='请输入身高' bindinput='hight'></input>
+  <input type='text' class='a' placeholder='请输入体重' bindinput='weight'></input>
+ 
+ <button bindtap='add'>提交</button>
+ <view class='d'>{{newlist}}</view>
+ <view class='d'>{{newlist1}}</view>
+ <view class='d'>{{newlist2}}</view>
+</view>

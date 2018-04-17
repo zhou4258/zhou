@@ -19,3 +19,14 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.a {
+  align-items: center;
+  height: 40px;
+  border: 2px solid gray;
+  margin: 15px;
+  
+}
+.d{ 
+  margin: 15px;
+}

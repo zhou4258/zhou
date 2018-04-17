@@ -5,9 +5,9 @@
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>                                                   </view>
+    </block>
+  </view>
   <view class="usermotto">
-    <text class="user-motto">Hello Word</text>
-    <navigator url= "/pages/show/show">跳转到新页面</navigator>
+  <navigator url='/pages/show/show'><button>点击开始</button></navigator>
   </view>
 </view>

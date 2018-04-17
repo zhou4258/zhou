@@ -1,0 +1,15 @@
+<view><image class='img' src='/images/2.jpg'></image></view>
+<view class="swiper-tab">
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">今日步数</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">测量体重</view>
+<view class="weui-cells__title" hidden="{{!isShow}}">
+ <button ><view class='go'>您今日已走了{{step}}</view></button>
+</view>
+
+<view class="weui-cells__title" hidden="{{isShow}}">
+
+ <navigator url='/pages/test/test'><button class='btn'>开始测量</button></navigator>
+   </view>
+
+
+</view>
